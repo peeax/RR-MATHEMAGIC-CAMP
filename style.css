@@ -77,7 +77,7 @@
 .book {
     width: 120px;
     position: absolute;
-    left: 100%;
+    left: 80%;
     bottom: 0;
     animation: book 4s linear infinite;
 }
