@@ -2,17 +2,10 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:image" content="https://i.ibb.co/1739Br0/thumbnail.png" />
-    <meta property="og:title" content="ปู้นๆ เตรียมตัวออกเดินทางไปกับขบวนรถไฟด่วนกับ RR MATHEMAGIC CAMP 2023" />
     <title>RR MATHEMAGIC CAMP</title>
     <link href="style.css" rel="stylesheet" type="text/css">
     <link rel="icon" type="image/png" href="image/logo-removebg.png">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
@@ -39,37 +32,35 @@
                     <span> Seconds </span>
                 </div>
             </div>
-            <button type="button"
-                onclick="location.href='https://instagram.com/rrmathemagic.camp?igshid=MzRlODBiNWFlZA=='">CONNECT WITH
-                US<img src="https://sv1.picz.in.th/images/2023/05/21/Fgd5Fy.th.png"></button>
-            <img src="image/harry-fly.png" class="book" type="video/mp4">
-        </div>
+            <button type="button" onclick="location.href='https://instagram.com/rrmathemagic.camp?igshid=MzRlODBiNWFlZA=='">CONNECT WITH US<img src="https://sv1.picz.in.th/images/2023/05/21/Fgd5Fy.th.png"></button>
+        <img src="image/harry-fly.png" class="book" type="video/mp4">
+    </div>
 
-        <script>
-            var countDownDate = new Date("Jul 01, 2023 00:00:00").getTime();
-            var x = setInterval(function () {
-                var now = new Date().getTime();
-                var distance = countDownDate - now;
-                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    <script>
+        var countDownDate = new Date("Jul 01, 2023 00:00:00").getTime();
+        var x = setInterval(function () {
+            var now = new Date().getTime();
+            var distance = countDownDate - now;
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-                document.getElementById("days").innerHTML = days;
-                document.getElementById("hours").innerHTML = hours;
-                document.getElementById("minutes").innerHTML = minutes;
-                document.getElementById("seconds").innerHTML = seconds;
+            document.getElementById("days").innerHTML = days;
+            document.getElementById("hours").innerHTML = hours;
+            document.getElementById("minutes").innerHTML = minutes;
+            document.getElementById("seconds").innerHTML = seconds;
 
-                if (distance < 0) {
-                    clearInterval(x);
-                    document.getElementById("days").innerHTML = "00";
-                    document.getElementById("hours").innerHTML = "00";
-                    document.getElementById("minutes").innerHTML = "00";
-                    document.getElementById("seconds").innerHTML = "00";
-                }
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("days").innerHTML = "00";
+                document.getElementById("hours").innerHTML = "00";
+                document.getElementById("minutes").innerHTML = "00";
+                document.getElementById("seconds").innerHTML = "00";
+            }
 
-            }, 1000);
-        </script>
+        }, 1000);
+    </script>
 
 
 
