@@ -79,7 +79,7 @@ p {
     position: absolute;
     right: -90%;
     bottom: 0;
-    animation: book 8s linear infinite;
+    animation: book 10s linear infinite;
 }
 
 @keyframes book {
@@ -133,7 +133,7 @@ p {
         position: absolute;
         right: -8%;
         bottom: 0;
-        animation: book 8s linear infinite;
+        animation: book 10s linear infinite;
     }
 
     .content button {
@@ -192,7 +192,7 @@ p {
         position: absolute;
         right: -8%;
         bottom: 0;
-        animation: book 8s linear infinite;
+        animation: book 10s linear infinite;
     }
 }
 
@@ -235,7 +235,7 @@ p {
         position: absolute;
         right: -10%;
         bottom: 0;
-        animation: book 8s linear infinite;
+        animation: book 10s linear infinite;
     }
 
     .content button {
@@ -294,7 +294,7 @@ p {
         position: absolute;
         right: -90%;
         bottom: 0;
-        animation: book 8s linear infinite;
+        animation: book 10s linear infinite;
     }
 }
 
@@ -336,7 +336,7 @@ p {
         position: absolute;
         right: -80%;
         bottom: 0;
-        animation: book 8s linear infinite;
+        animation: book 10s linear infinite;
     }
 }
 
@@ -378,6 +378,6 @@ p {
         position: absolute;
         right: -95%;
         bottom: 0;
-        animation: book 8s linear infinite;
+        animation: book 10s linear infinite;
     }
 }
