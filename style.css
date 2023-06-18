@@ -117,13 +117,12 @@ p {
     animation: book 10s linear infinite;
 }
 
-.centerImage
-{
- text-align:center;
- display:block;
- -moz-box-shadow: 10px 10px 50px #ccc;
+.test {
+    text-align: center;
+    margin-top: 50px;
+    /*-moz-box-shadow: 10px 10px 50px #ccc;
     -webkit-box-shadow: 10px 10px 50px #ccc;
-    box-shadow: 10px 10px 50px #ccc;
+    box-shadow: 10px 10px 50px #ccc;*/
 }
 
 
