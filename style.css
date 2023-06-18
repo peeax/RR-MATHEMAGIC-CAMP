@@ -42,6 +42,11 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-size: 1.3em;
+}
+
+.page2 .logos {
+    style width: 100px;
 }
 
 .logo {
@@ -49,6 +54,7 @@
     padding: 10px 0;
     cursor: pointer;
 }
+
 
 .content {
     top: 50%;
@@ -68,10 +74,10 @@
 
 .content button {
     background: transparent;
-    border: 2px solid rgb(124, 122, 124);
+    border: 2px solid rgb(252, 247, 252);
     outline: none;
     padding: 12px 25px;
-    color: aliceblue;
+    color: rgb(230, 230, 236);
     display: flex;
     align-items: center;
     margin-top: 30px;
@@ -166,7 +172,6 @@ p {
 
     .content button {
         background: transparent;
-        border: 2px solid rgb(124, 122, 124);
         outline: none;
         padding: 10px 11px;
         color: aliceblue;
@@ -266,7 +271,6 @@ p {
 
     .content button {
         background: transparent;
-        border: 2px solid rgb(124, 122, 124);
         outline: none;
         padding: 10px 22px;
         color: aliceblue;
@@ -325,7 +329,6 @@ p {
 
     .content button {
         background: transparent;
-        border: 2px solid rgb(124, 122, 124);
         outline: none;
         padding: 10px 22px;
         color: aliceblue;
@@ -384,7 +387,6 @@ p {
 
     .content button {
         background: transparent;
-        border: 2px solid rgb(124, 122, 124);
         outline: none;
         padding: 10px 22px;
         color: aliceblue;
