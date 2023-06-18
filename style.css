@@ -1,26 +1,53 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'poppins', sans-serif;
+    font-family: 'prompt','poppins', sans-serif;
     box-sizing: border-box;
 }
 
 .container {
     width: 100vw;
     height: 100vh;
-    background-image: url(image/wallpaper2.jpg);
-    /*background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);*/
+    background-image: url(image/wallpaper6.png);
     background-position: center;
     background-size: cover;
     padding: 0 8%;
     position: relative;
+    /*position: relative;*/
+}
+
+.page2 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(image/wallpaper5.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 8 0%;
+    position: absolute;
+
+    /*position: absolute;
+    z-index: 1;
+    animation: transitionIn ease-in 1s forwards;
+    transition-delay: 3s;*/
+
+
+}
+
+.page2 .title{
+    width: 100%;
+    z-index: 20;
+    color: rgb(7, 6, 6);
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .logo {
     width: 300px;
     padding: 10px 0;
     cursor: pointer;
-    logo-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .content {
@@ -59,7 +86,7 @@
 p {
     font-size: 15px;
     color: rgb(214, 214, 214);
-    padding: 5px;
+    padding: 2px;
 }
 
 .launch-time {
@@ -68,6 +95,7 @@ p {
 
 .launch-time div {
     flex-basis: 100px;
+    padding: 2px;
 }
 
 .launch-time div p {
@@ -101,7 +129,6 @@ p {
         width: 180px;
         padding: 20px 0;
         cursor: pointer;
-        logo-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
 
     .content h1 {
@@ -161,7 +188,6 @@ p {
         width: 250px;
         padding: 20px 0;
         cursor: pointer;
-        logo-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
 
     .content h1 {
@@ -203,7 +229,6 @@ p {
         width: 210px;
         padding: 20px 0;
         cursor: pointer;
-        logo-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
 
     .content h1 {
@@ -263,7 +288,6 @@ p {
         width: 260px;
         padding: 20px 0;
         cursor: pointer;
-        logo-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
 
     .content h1 {
@@ -323,7 +347,6 @@ p {
         width: 280px;
         padding: 20px 0;
         cursor: pointer;
-        logo-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
 
     .content h1 {
@@ -383,7 +406,6 @@ p {
         width: 310px;
         padding: 20px 0;
         cursor: pointer;
-        logo-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
 
     .content h1 {
@@ -425,7 +447,6 @@ p {
         width: 310px;
         padding: 20px 0;
         cursor: pointer;
-        logo-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
 
     .content h1 {
@@ -467,7 +488,6 @@ p {
         width: 370px;
         padding: 20px 0;
         cursor: pointer;
-        logo-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
 
     .content h1 {
@@ -509,7 +529,6 @@ p {
         width: 290px;
         padding: 5px 0;
         cursor: pointer;
-        logo-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
 
     .content h1 {
@@ -528,6 +547,7 @@ p {
     .launch-time div p {
         font-size: 65px;
         margin-bottom: -13px;
+        padding: 2px;
     }
 
     p {
